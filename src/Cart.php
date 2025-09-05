@@ -39,7 +39,7 @@ class Cart
     {
         echo "Itens no carrinho:\n";
         foreach ($this->items as $item) {
-            echo "- {$item['product']->getName()} | Qty: {$item['quantity']} \n";
+            echo "- {$item['product']->getName()} | Qtd: {$item['quantity']} \n";
         }
         echo "Total: \$" . $this->calculateTotal() . "\n";
     }
@@ -67,4 +67,5 @@ class Cart
         return "Cupom invalido.\n";
     }
 }
+
 
