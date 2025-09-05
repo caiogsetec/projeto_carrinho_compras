@@ -1,0 +1,28 @@
+# Documentação
+
+# Funcionalidades
+
+# Adicionar item ao carrinho.
+Verifica se o produto existe e possui estoque suficiente.
+Diminui o estoque do produto e adiciona ao carrinho com quantidade e subtotal.
+
+# Remover item do carrinho.
+Verifica se o item está no carrinho.
+Remove o item e devolve a quantidade ao estoque.
+
+# Listar itens do carrinho.
+Exibe os produtos adicionados, mostrando nome, quantidade, subtotal e total.
+
+# Calcular total do carrinho.
+Soma todos os subtotais dos itens adicionados.
+Aplica desconto se houver.
+
+# Aplicar desconto.
+Aceita o cupom DISCOUNT10, aplicando 10% de desconto no valor final.
+
+# Regras de Negócio
+Um produto não pode ser adicionado além da quantidade disponível em estoque.
+O estoque é reduzido quando o produto é adicionado ao carrinho.
+O estoque é restaurado quando o produto é removido do carrinho.
+O desconto só é aplicado se o cupom informado for válido (DESCONTO10).
+Apenas um cupom pode ser aplicado por vez.
