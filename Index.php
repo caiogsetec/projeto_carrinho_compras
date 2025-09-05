@@ -21,6 +21,7 @@ $cart->listItems();
 echo $cart->addItem($products[1], 1);
 $cart->listItems();
 
-echo $cart->applyDiscount("MENOS15");
+echo $cart->applyDiscount("DESCONTO10");
 echo "Total final: \$" . $cart->calculateTotal() . "\n";
+
 
