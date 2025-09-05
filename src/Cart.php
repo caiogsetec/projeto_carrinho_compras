@@ -60,10 +60,11 @@ class Cart
 
     public function applyDiscount(string $coupon): string
     {
-        if ($coupon === "MENOS15") {
-            $this->discount = 0.15;
+        if ($coupon === "DESCONTO10") {
+            $this->discount = 0.10;
             return "Cupom aplicado com sucesso!\n";
         }
         return "Cupom invalido.\n";
     }
 }
+
